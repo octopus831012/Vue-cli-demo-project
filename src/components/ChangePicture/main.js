@@ -58,7 +58,7 @@ export default {
   },
   methods: {
     delta(d) {
-      this.nowIndex = `${this.nowIndex}${d}${this.works.length % this.works.length}`;
+      this.nowIndex = (this.nowIndex + d + this.works.length) % this.works.length;
     },
     bgCSS(url) {
       return {
