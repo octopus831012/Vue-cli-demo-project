@@ -1,0 +1,20 @@
+<div class="changePicture">
+  <div class="controlLeft" @click='delta(-1)'>
+    <i class="fa fa-angle-left"></i>
+  </div>
+  <div class="postArea">
+    <div class="posts" :style='computedLeft'>
+      <div class="postBox" v-for='(w,id) in works' :class='{curItem: id == nowIndex}'>
+        <div class="cover" :style='bgCSS(w.cover)'>
+          <div class="infos">
+            <h1>{{w.title}}</h1>
+            <h5>{{w.description}}</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="controlRight">
+    <i class="fa fa-angle-right" @click='delta(1)'></i>
+  </div>
+</div>
