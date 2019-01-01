@@ -1,5 +1,14 @@
 # first-cli
 
+## Todo
+
+- [ ] html structure
+- [ ] html picture
+- [ ] html button
+- [ ] js change picture
+- [ ] css
+- [ ] animation
+
 ## Project setup
 ```
 npm install
