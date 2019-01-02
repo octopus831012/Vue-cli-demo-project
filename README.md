@@ -2,13 +2,20 @@
 
 ## Todo
 
-- [ ] html structure
-- [ ] html picture
-- [ ] html button
-- [ ] js change picture
-- [ ] css
-- [ ] animation
+### Change Picture
+- [x] html structure
+- [x] html picture
+- [x] html button
+- [x] js change picture
+- [x] css
+- [x] animation
 
+### Scss color Tool
+- [ ] html structure/table
+- [ ] data
+- [ ] js create new color
+- [ ] simple scss
+  
 ## Project setup
 ```
 npm install
