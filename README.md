@@ -11,10 +11,10 @@
 - [x] animation
 
 ### Scss color Tool
-- [ ] html structure/table
-- [ ] data
-- [ ] js create new color
-- [ ] simple scss
+- [x] html structure/table
+- [x] data
+- [x] js create new color
+- [x] simple scss
   
 ## Project setup
 ```

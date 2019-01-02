@@ -15,14 +15,15 @@ export default {
       for (let i = 0; i < cutString.length; i += 1) {
         const name = cutString[i].split(':')[0];
         const color = cutString[i].split(' ')[1];
-
-        result.push({
-          name,
-          color,
-          colorCSS: {
-            'background-color': color,
-          },
-        });
+        if (name.indexOf('color') !== -1) {
+          result.push({
+            name,
+            color,
+            colorCSS: {
+              'background-color': color,
+            },
+          });
+        }
       }
       return result;
     },
