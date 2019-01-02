@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <ChangePicture/>
+    <ScssColorCardTool/>
   </div>
 </template>
 
 <script>
 import ChangePicture from './components/ChangePicture/index.vue';
+import ScssColorCardTool from './components/ScssColorCardTool/index.vue';
 
 export default {
   name: 'app',
   components: {
     ChangePicture,
+    ScssColorCardTool,
   },
 };
 </script>
