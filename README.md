@@ -23,7 +23,7 @@
 - [x] time zone (the wrapper of dialogs)
 - [x] dialogs css
 - [x] set time line
-- [ ] order the dialogs
+- [x] order the dialogs
 - [ ] initial button
 - [ ] button css
 - [ ] add decoration

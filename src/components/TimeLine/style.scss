@@ -41,6 +41,17 @@ background-color: $colorLightBlue;
 .dialogWrapper {
   height: 170px;
   position: relative;
+
+  &:before {
+    content: '';
+    display: block;
+    @include size(20px);
+    border: solid 5px white;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-40%);
+  }
   
   &:nth-child(2n){
     .dialog {
