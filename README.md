@@ -15,6 +15,12 @@
 - [x] data
 - [x] js create new color
 - [x] simple scss
+
+### Time line
+- [ ] create data
+- [ ] reset css
+- [ ] html structure
+- [ ] css transition
   
 ## Project setup
 ```
