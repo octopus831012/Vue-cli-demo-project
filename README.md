@@ -22,7 +22,7 @@
 - [x] create data list
 - [x] time zone (the wrapper of dialogs)
 - [x] dialogs css
-- [ ] set time line
+- [x] set time line
 - [ ] order the dialogs
 - [ ] initial button
 - [ ] button css

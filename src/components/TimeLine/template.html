@@ -1,7 +1,8 @@
 <div class="timeLine">
-  <div class="dialog">
-    <li class="dialogWrapper" v-for='(l,id) in logs' :key="l">
-      <div class="dialog">
+  <div id="app">
+    <ul class="timeLine">
+      <li class="dialogWrapper" v-for='(l,id) in logs' :key="l">
+        <div class="dialog">
           <h3 class="year">
             {{l.year}}
           </h3>
@@ -10,7 +11,8 @@
               {{c.month}} 月 {{c.tag}}
             </li>
           </ul>
-      </div>
-    </li>
+        </div>
+      </li>
+    </ul>
   </div>
 </div>
