@@ -14,3 +14,52 @@ $colorOrange: #F4A371;
 *, *:before, *:after {
   border: solid 1px black !important;
 }
+
+ul,li {
+  list-style: none;
+  padding: 0;
+}
+
+.dialogWrapper{
+  height: 160px;
+  position: relative;
+}
+
+.dialog {
+  background-color: #fff;
+  padding: 15px 20px;
+  cursor: pointer;
+
+
+  border-radius: 5px;
+  box-shadow: 15px 15px $colorLightBlue;
+  width: 250px;
+  position: relative;
+
+  left: 0;
+  top: -10px;
+
+  &:before {
+    content: '';
+    display: block;
+    @include size(20px);
+    border-radius: 3px;
+    position: absolute;
+    right: -10px;
+    background-color: $colorWhite;
+    transform: rotate(45deg);
+  }
+
+  &:hover {
+    transform: translate(-10px, -10px);
+    box-shadow: 20px 20px $colorDarkBlue;
+  }
+
+  >.year {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+  }
+
+}

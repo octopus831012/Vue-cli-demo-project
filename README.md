@@ -20,8 +20,8 @@
 - [x] create data
 - [x] reset css
 - [x] create data list
-- [ ] time zone (the wrapper of dialogs)
-- [ ] dialogs css
+- [x] time zone (the wrapper of dialogs)
+- [x] dialogs css
 - [ ] set time line
 - [ ] order the dialogs
 - [ ] initial button
