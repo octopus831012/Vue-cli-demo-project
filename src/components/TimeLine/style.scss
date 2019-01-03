@@ -112,6 +112,35 @@ background-color: $colorLightBlue;
 
 }
 
+.decorationBar {
+  &, &:before, &:after {
+    content: '';
+    @include size(8px, 30px);
+    background-color: $colorYellow;
+    border-radius: 5px;
+    position: absolute;
+    top: -35px;
+    left: 30px;
+    animation: rainIn 0.5s 0.5s both;
+  }
+
+  &:before {
+    background-color: $colorOrange;
+    top: -30px;
+    left: -20px;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+  }
+
+  &:after {
+    background-color: $colorWhite;
+    top: -60px;
+    left: 20px;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+  }
+}
+
 button.initial {
   position: fixed;
   right: 30px;

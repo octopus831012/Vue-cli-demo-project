@@ -26,8 +26,8 @@
 - [x] order the dialogs
 - [x] initial button
 - [x] button css
-- [ ] add decoration
-- [ ] css transition
+- [x] add decoration
+- [ ] css transition & animation
   
 ## Project setup
 ```
