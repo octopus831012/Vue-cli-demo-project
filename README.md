@@ -17,9 +17,16 @@
 - [x] simple scss
 
 ### Time line
-- [ ] create data
-- [ ] reset css
-- [ ] html structure
+- [x] create data
+- [x] reset css
+- [x] create data list
+- [ ] time zone (the wrapper of dialogs)
+- [ ] dialogs css
+- [ ] set time line
+- [ ] order the dialogs
+- [ ] initial button
+- [ ] button css
+- [ ] add decoration
 - [ ] css transition
   
 ## Project setup

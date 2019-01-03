@@ -1,3 +1,16 @@
 <div class="timeLine">
-  TimeLine
+  <div class="dialog">
+    <li class="dialogWrapper" v-for='(l,id) in logs' :key="l">
+      <div class="dialog">
+          <h3 class="year">
+            {{l.year}}
+          </h3>
+          <ul class="content">
+            <li v-for='c in l.content'>
+              {{c.month}} 月 {{c.tag}}
+            </li>
+          </ul>
+      </div>
+    </li>
+  </div>
 </div>
