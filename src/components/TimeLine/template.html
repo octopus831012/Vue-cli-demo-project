@@ -1,8 +1,8 @@
 <div class="timeLine">
   <div id="app">
     <button class="initial" @click='initial'>插入資料</button>
-    <ul class="timeLine">
-      <li class="dialogWrapper" v-for='(l,id) in logs' :key="l">
+    <transition-group tag='ul' name='fade' class="timeLine">
+      <li class="dialogWrapper" v-for='(l,id) in logs' :key="l" :style='{"transition-delay":id/2+"s"}'>
         <div class="dialog">
           <h3 class="year">
             <div class="decorationBar"></div>
@@ -15,6 +15,6 @@
           </ul>
         </div>
       </li>
-    </ul>
+    </transition-group>
   </div>
 </div>

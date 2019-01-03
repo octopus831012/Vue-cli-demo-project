@@ -27,7 +27,7 @@
 - [x] initial button
 - [x] button css
 - [x] add decoration
-- [ ] css transition & animation
+- [x] css transition & animation
   
 ## Project setup
 ```
