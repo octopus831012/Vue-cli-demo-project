@@ -24,8 +24,8 @@
 - [x] dialogs css
 - [x] set time line
 - [x] order the dialogs
-- [ ] initial button
-- [ ] button css
+- [x] initial button
+- [x] button css
 - [ ] add decoration
 - [ ] css transition
   

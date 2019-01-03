@@ -5,7 +5,13 @@ export default {
   },
   data() {
     return {
-      logs: [
+      logs: [],
+    };
+  },
+  methods: {
+    initial() {
+      this.logs = [];
+      this.logs = [
         {
           year: 2014,
           content: [
@@ -56,7 +62,7 @@ export default {
             },
           ],
         },
-      ],
-    };
+      ];
+    },
   },
 };

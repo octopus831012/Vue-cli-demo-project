@@ -33,13 +33,13 @@ background-color: $colorLightBlue;
       height: 100vh;
       width: 6px;
       background-color: rgba($colorWhite, $alpha: 0.4);
-      padding-top: 50px;
+      padding-top: 40px;
     }
   }
 }
 
 .dialogWrapper {
-  height: 170px;
+  height: 160px;
   position: relative;
 
   &:before {
@@ -110,4 +110,17 @@ background-color: $colorLightBlue;
     letter-spacing: 2px;
   }
 
+}
+
+button.initial {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  background-color: $colorDarkBlue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 15px;
+  cursor: pointer;
 }
