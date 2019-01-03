@@ -1,1 +1,16 @@
 @import "./_reset-src.scss";
+
+$colorLightBlue: #D4EBE8;
+$colorDarkBlue: #4FBDBC;
+$colorWhite: white;
+$colorYellow: #F4DF38;
+$colorOrange: #F4A371; 
+
+@mixin size($w,$h:$w) {
+  width: $w;
+  height: $h;
+}
+
+*, *:before, *:after {
+  border: solid 1px black !important;
+}
