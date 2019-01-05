@@ -18,7 +18,7 @@
 }
 
 .changePicture{
-  @include size(100%, 300px);
+  @include size(100%, 450px);
   @include flexCenter();
   background-color: #1c1c1c;
   overflow: hidden;
@@ -122,7 +122,7 @@
   border: solid 1px white;
   position: fixed;
   border-radius: 50%;
-  color: black;
+  color: white;
   font-size: 30px;
   @include flexCenter();
   cursor: pointer;

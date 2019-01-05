@@ -2,16 +2,16 @@
   <div id="app">
 
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-    <a class="navbar-brand" href="#"></a>
+    <a class="navbar-brand" href="#">庭庭作品集</a>
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-ScssColorCardTool" href="#" @click="changeComponent('ScssColorCardTool')">Sass 變數色卡網頁工具</a>
+        <a class="nav-link" href="#" @click="changeComponent('ScssColorCardTool')">Sass 變數色卡網頁工具</a>
       </li>
       <li class="nav-item">
-        <a class="nav-ChangePicture" href="#" @click="changeComponent('ChangePicture')">圖片輪播</a>
+        <a class="nav-link" href="#" @click="changeComponent('ChangePicture')">圖片輪播</a>
       </li>
       <li class="nav-item">
-        <a class="nav-TimeLine" href="#" @click="changeComponent('TimeLine')">時間年表</a>
+        <a class="nav-link" href="#" @click="changeComponent('TimeLine')">時間年表</a>
       </li>
     </ul>
   </nav>
@@ -65,7 +65,7 @@ export default {
   margin-top: 0px;
 
   a {
-    padding: 10px;
+    padding-right: 10px;
     color: white;
   }
 }
