@@ -67,6 +67,7 @@ export default {
   a {
     padding-right: 20px;
     color: white;
+    line-height:40px;
   }
 
   .link_focus {
