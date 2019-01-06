@@ -1,20 +1,20 @@
 <template>
   <div id="app">
 
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-    <a class="navbar-brand" href="#">庭庭作品集</a>
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#" @click="changeComponent('ScssColorCardTool')">Sass 變數色卡網頁工具</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" @click="changeComponent('ChangePicture')">圖片輪播</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" @click="changeComponent('TimeLine')">時間年表</a>
-      </li>
-    </ul>
-  </nav>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+      <a class="navbar-brand" href="#">庭庭作品集</a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="navLink" v-bind:class="{link_focus: displayScssColorCardTool}" href="#" @click="nextWork('ScssColorCardTool')">Sass變數色卡網頁工具</a>
+        </li>
+        <li class="nav-item">
+          <a class="navLink" v-bind:class="{link_focus: displayChangePicture}" href="#" @click="nextWork('ChangePicture')">圖片輪播</a>
+        </li>
+        <li class="nav-item">
+          <a class="navLink" v-bind:class="{link_focus: displayTimeLine}" href="#" @click="nextWork('TimeLine')">時間年表</a>
+        </li>
+      </ul>
+    </nav>
 
     <ScssColorCardTool v-show="displayScssColorCardTool"/>
     <ChangePicture v-show="displayChangePicture"/>
@@ -42,7 +42,7 @@ export default {
     };
   },
   methods: {
-    changeComponent(componentName) {
+    nextWork(componentName) {
       this.resetDisplay();
       this[`display${componentName}`] = true;
     },
@@ -65,8 +65,12 @@ export default {
   margin-top: 0px;
 
   a {
-    padding-right: 10px;
+    padding-right: 20px;
     color: white;
+  }
+
+  .link_focus {
+    font-size: 30px;
   }
 }
 </style>
