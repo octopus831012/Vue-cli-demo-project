@@ -1,58 +1,15 @@
 # first-cli
+ 
+## Scss Color Card Tool
 
-## Todo
+1. 用途：色卡預覽
+2. 命名規則：color_{顏色}: #{色碼}
+3. 附色碼查詢連結
 
-### Change Picture
-- [x] html structure
-- [x] html picture
-- [x] html button
-- [x] js change picture
-- [x] css
-- [x] animation
+## Change Picture
 
-### Scss color Tool
-- [x] html structure/table
-- [x] data
-- [x] js create new color
-- [x] simple scss
+1. 使用視窗的左右按鈕切換圖片
 
-### Time line
-- [x] create data
-- [x] reset css
-- [x] create data list
-- [x] time zone (the wrapper of dialogs)
-- [x] dialogs css
-- [x] set time line
-- [x] order the dialogs
-- [x] initial button
-- [x] button css
-- [x] add decoration
-- [x] css transition & animation
-  
-## Project setup
-```
-npm install
-```
+## Time Line
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifier for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. 按下右下角的'插入資料'按鈕顯示年表
